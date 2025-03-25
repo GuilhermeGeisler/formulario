@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário com Tabela</title>
+    
+    <!-- Font Awesome ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- SheetJS exportar Excel -->
+    <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+</head>
+<body>
+    <header>
+        Formulário
+    </header>
+
+    <main>
+        <!-- Formulário cadastro -->
+        <form id="meuFormulario">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="data-nascimento">Data de Nascimento:</label>
+            <input type="date" id="data-nascimento" name="data-nascimento" required>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required placeholder="(00) 00000-0000">
+
+            <label for="endereco">Endereço:</label>
+            <input type="text" id="endereco" name="endereco" required>
+
+            <label for="cpf">CPF:</label>
+            <input type="text" id="cpf" name="cpf" required placeholder="000.000.000-00">
+
+            <!-- Botões formulário -->
+            <div class="form-buttons">
+                <button type="submit" class="submit-btn">
+                    <i class="fas fa-paper-plane"></i> Enviar
+                </button>
+                <button type="reset" class="reset-btn">
+                    <i class="fas fa-eraser"></i> Limpar
+                </button>
+            </div>
+        </form>
+
+        <div class="table-container">
+            <!-- Botões ação tabela -->
+            <div class="table-actions">
+                <button class="reset-table-btn" title="Limpar tabela">
+                    <i class="fas fa-redo"></i>
+                </button>
+                <button class="download-btn" title="Baixar tabela">
+                    <i class="fas fa-file-export"></i> Exportar
+                </button>
+            </div>
+            
+            <!-- Tabela dados -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>E-mail</th>
+                        <th>Data Nasc.</th>
+                        <th>Telefone</th>
+                        <th>Endereço</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody id="tabela-body">
+                    <!-- Dados inseridos via JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <!-- Modal Exportação -->
+    <div id="export-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3>Exportar Tabela</h3>
+            <div class="export-options">
+                <button id="export-csv" class="export-option-btn">
+                    <i class="fas fa-file-csv"></i> CSV
+                </button>
+                <button id="export-excel" class="export-option-btn">
+                    <i class="fas fa-file-excel"></i> Excel
+                </button>
+            </div>
+            <div class="modal-actions">
+                <button id="cancel-export" class="cancel-btn">Cancelar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- feedback acessibilidade -->
+    <div id="live-region" aria-live="polite" class="sr-only"></div>
+
+    <footer class="rodape">
+        Desenvolvido com ❤️ por Guilherme Geisler
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
