@@ -66,9 +66,9 @@
 </table>
 
 ## 📧 Contato
-✉️ guilherme.sgeisler@gmail.com  
-🐙 github.com/GuilhermeGeisler
-
+- **LinkedIn**: [Guilherme Geisler](https://www.linkedin.com/in/guilhermegeisler/)  
+- **Email**: [guilherme.sgeisler@gmail.com](mailto:guilherme.sgeisler@gmail.com)
+- 
 ---
 
 Feito com ❤️ por [Guilherme Geisler](https://www.linkedin.com/in/guilhermegeisler/)
