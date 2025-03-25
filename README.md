@@ -37,10 +37,10 @@
 </div>
 
 ## 📦 Estrutura
-formulario-tabela/
-├── index.html
-├── styles.css
-└── script.js
+- formulario-tabela/
+- ├── index.html
+- ├── styles.css
+- └── script.js
 
 
 ## 🎯 Como Usar
