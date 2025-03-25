@@ -52,7 +52,18 @@ formulario-tabela/
 3. Os dados persistem ao recarregar
 
 ## 👨‍💻 Desenvolvedor
-<div style="display: flex; align-items: center; gap: 20px; margin-top: 20px;"> <img src="https://avatars.githubusercontent.com/u/53203780?s=400&u=9a85ac6d2d3c55a872ab0bafd1d38d8bd0da5cc4&v=4" width="100" style="border-radius: 50%;" alt="Foto Guilherme Geisler"> <div> <h3>Guilherme Geisler</h3> <p>Estudante de Análise e Desenvolvimento de Sistemas</p> <div style="display: flex; gap: 10px;"> <a href="https://www.linkedin.com/in/guilhermegeisler/"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"> </a> <a href="mailto:guilherme.sgeisler@gmail.com"> <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"> </a> </div> </div> </div>
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/guilhermegeisler/">
+        <img src="https://avatars.githubusercontent.com/u/53203780?s=400&u=9a85ac6d2d3c55a872ab0bafd1d38d8bd0da5cc4&v=4" width="100px;" alt="Foto do Guilherme Geisler"/><br>
+        <sub>
+          <b>Guilherme Geisler</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
 ## 📧 Contato
 ✉️ guilherme.sgeisler@gmail.com  
