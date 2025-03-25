@@ -1,12 +1,12 @@
 # 📋 Formulário com Tabela Interativa
 
 ## 📖 Sobre o Projeto
-Aplicação web completa para gerenciamento de dados pessoais com:
-- Cadastro via formulário
+**Primeiro exercício prático** da disciplina de Programação Web, desenvolvendo um sistema completo para:
+- Cadastro de dados via formulário
 - Visualização em tabela dinâmica
-- Exportação para CSV/Excel
-- Persistência de dados
-- Design 100% responsivo
+- Operações CRUD básicas
+- Persistência com localStorage
+- Exportação de dados
 
 ## 🚀 Funcionalidades
 ### ✍️ Cadastro
@@ -30,10 +30,11 @@ Aplicação web completa para gerenciamento de dados pessoais com:
 - Modal intuitivo
 
 ## 🛠️ Tecnologias
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![SheetJS](https://img.shields.io/badge/SheetJS-217346?style=for-the-badge)
+<div style="display: flex; gap: 10px; flex-wrap: wrap;">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+</div>
 
 ## 📦 Estrutura
 formulario-tabela/
@@ -51,7 +52,7 @@ formulario-tabela/
 3. Os dados persistem ao recarregar
 
 ## 👨‍💻 Desenvolvedor
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Guilherme_Geisler-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/guilhermegeisler/)
+<div style="display: flex; align-items: center; gap: 20px; margin-top: 20px;"> <img src="https://avatars.githubusercontent.com/u/53203780?s=400&u=9a85ac6d2d3c55a872ab0bafd1d38d8bd0da5cc4&v=4" width="100" style="border-radius: 50%;" alt="Foto Guilherme Geisler"> <div> <h3>Guilherme Geisler</h3> <p>Estudante de Análise e Desenvolvimento de Sistemas</p> <div style="display: flex; gap: 10px;"> <a href="https://www.linkedin.com/in/guilhermegeisler/"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"> </a> <a href="mailto:guilherme.sgeisler@gmail.com"> <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"> </a> </div> </div> </div>
 
 ## 📧 Contato
 ✉️ guilherme.sgeisler@gmail.com  
